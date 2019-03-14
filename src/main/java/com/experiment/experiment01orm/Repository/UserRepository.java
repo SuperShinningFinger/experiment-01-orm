@@ -1,7 +1,7 @@
-package Repository;
+package com.experiment.experiment01orm.Repository;
 
-import Entity.Address;
-import Entity.User;
+import com.experiment.experiment01orm.Entity.Address;
+import com.experiment.experiment01orm.Entity.User;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 

@@ -1,4 +1,4 @@
-package Entity;
+package com.experiment.experiment01orm.Entity;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,4 +1,4 @@
-package Entity;
+package com.experiment.experiment01orm.Entity;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -20,8 +20,7 @@ public class Address {
     insertable =  false)
     private LocalDateTime insertTime;
 
-    @OneToOne
-    @MapsId
+    @ManyToOne
     private User user;
     public Address(String detail){
         this.detail = detail;
