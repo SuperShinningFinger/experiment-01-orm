@@ -26,7 +26,7 @@ public class Experiment01OrmApplicationTests {
     }
 
     @Test
-    public void test(){
+    public void test() {
         userRepository.addUserAddress();
     }
 
